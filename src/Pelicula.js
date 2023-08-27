@@ -5,7 +5,7 @@ export default function Pelicula(props) {
             <div className="mv-item-infor">
                 <h6><a href="moviesingle.html">{props.titulo}</a></h6>
                 <p className="rate"><i className="ion-android-star"></i>{props.calificacion} /10</p>
-                <p className="describe">{props.descripcion}</p>
+                <p className="describe">{props.children}</p>
                 <p className="run-time"> Duracion {props.duracion}    .     <span>MMPA: PG-13</span>    .     <span>Release: {props.fecha}</span></p>
                 <p>Director: {props.director}</p>
                 <p>Actores: {props.actores}</p>
